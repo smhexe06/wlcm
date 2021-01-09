@@ -2,13 +2,13 @@
     "DEFAULTS": {
         "AUTHORS": [],
         "ACTIVITY_TEXT": "Tofas Voice System",
-        "GUILD_ID": "793782876155805697",
-        "VOICE_CHANNEL": "797526237265526804",
-        "MIN_STAFF_ROLE": "797526224141287444"
+        "GUILD_ID": "391635468732858390",
+        "VOICE_CHANNEL": "704886454513434645",
+        "MIN_STAFF_ROLE": "710998436442275891"
     },
     "FILES": {
-        "WELCOME": "https://cdn.glitch.com/a28c7652-1caa-4ccd-9b19-84bf4d4eb9ef%2Fdeneme1.mp3?v=1610227131540",
-        "STAFF": "https://cdn.glitch.com/a28c7652-1caa-4ccd-9b19-84bf4d4eb9ef%2Fdeneme3.mp3?v=1610227390055"
+        "WELCOME": "https://cdn.glitch.com/a28c7652-1caa-4ccd-9b19-84bf4d4eb9ef%2F10_Oca_00.49.mp3?v=1610229167904",
+        "STAFF": "https://cdn.glitch.com/a28c7652-1caa-4ccd-9b19-84bf4d4eb9ef%2F10_Oca_00.484.mp3?v=1610229162242"
     },
     "TOKEN": "Nzk3NTcwNTE5NzE2NDYyNjE0.X_oZbg.NtljW_LyYB7VB6pno2Qq2yq2osk"
 } 
