@@ -44,7 +44,7 @@ Voice.on("ready", async() => {
         else Voice.staffJoined = true;
 
     }).catch(err => {
-        Voice.error(`Cannot connect to voice channel (${Channel.name}) (${Channel.id}): ` + err.message)
+        Voice.error(`Cann  ot connect to voice channel (${Channel.name}) (${Channel.id}): ` + err.message)
         return Voice.destroy();
     });
 
@@ -84,7 +84,7 @@ Voice.login(CONFIG.TOKEN).catch(err => {
 function playVoice(Voice) {
     try {
 
-        const Path = Voice.staffJoined === true ? + CONFIG.FILES.STAFF :  + CONFIG.FILES.WELCOME;
+        const Path = Voice.staffJoined === true ?  CONFIG.FILES.STAFF :  CONFIG.FILES.WELCOME;
         Voice.playingVoice = true;
         Voice.voiceConnection.play(Path, {
             volume: 1
