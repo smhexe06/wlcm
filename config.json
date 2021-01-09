@@ -1,0 +1,14 @@
+{
+    "DEFAULTS": {
+        "AUTHORS": [],
+        "ACTIVITY_TEXT": "Tofas Voice System",
+        "GUILD_ID": "797569289179234345",
+        "VOICE_CHANNEL": "797569289728163904",
+        "MIN_STAFF_ROLE": "797572957097426964"
+    },
+    "FILES": {
+        "WELCOME": "default_files/<welcome-voice>.mp3",
+        "STAFF": "default_files/<staff-voice>.mp3"
+    },
+    "TOKEN": "Nzk3NTcwNTE5NzE2NDYyNjE0.X_oZbg.CnMMv73GvSOA4QClSY5SRFbppUg"
+} 
