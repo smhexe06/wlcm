@@ -84,7 +84,7 @@ Voice.login(CONFIG.TOKEN).catch(err => {
 function playVoice(Voice) {
     try {
 
-        const Path = Voice.staffJoined === true ? "./" + CONFIG.FILES.STAFF : "./" + CONFIG.FILES.WELCOME;
+        const Path = Voice.staffJoined === true ? + CONFIG.FILES.STAFF :  + CONFIG.FILES.WELCOME;
         Voice.playingVoice = true;
         Voice.voiceConnection.play(Path, {
             volume: 1

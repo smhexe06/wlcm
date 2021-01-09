@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-      "dependencies": {
     "@discordjs/opus": "^0.3.3",
     "discord.js": "^12.5.1",
     "fs": "0.0.1-security",

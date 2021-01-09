@@ -7,8 +7,8 @@
         "MIN_STAFF_ROLE": "797572957097426964"
     },
     "FILES": {
-        "WELCOME": "default_files/<welcome-voice>.mp3",
-        "STAFF": "default_files/<staff-voice>.mp3"
+        "WELCOME": "https://cdn.glitch.com/a28c7652-1caa-4ccd-9b19-84bf4d4eb9ef%2Fdeneme1.mp3?v=1610227131540",
+        "STAFF": "https://cdn.glitch.com/a28c7652-1caa-4ccd-9b19-84bf4d4eb9ef%2Fdeneme3.mp3?v=1610227390055"
     },
-    "TOKEN": "Nzk3NTcwNTE5NzE2NDYyNjE0.X_oZbg.CnMMv73GvSOA4QClSY5SRFbppUg"
+    "TOKEN": "Nzk3NTcwNTE5NzE2NDYyNjE0.X_oZbg.NtljW_LyYB7VB6pno2Qq2yq2osk"
 } 
