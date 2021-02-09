@@ -2,7 +2,7 @@ dependencies:
   '@discordjs/opus': 0.3.3
   discord.js: 12.5.1
   express: 4.17.1
-  fs: 0.0.1-security
+  fs: 0.0.2
   moment: 2.29.1
   moment-duration-format: 2.3.2
   opusscript: 0.0.7
@@ -348,10 +348,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
-  /fs/0.0.1-security:
+  /fs/0.0.2:
     dev: false
     resolution:
-      integrity: sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+      integrity: sha1-4fJE7zkzwbKmS9R5kTYGDQ9ZFPg=
   /gauge/2.7.4:
     dependencies:
       aproba: 1.2.0
@@ -973,7 +973,7 @@ specifiers:
   '@discordjs/opus': ^0.3.3
   discord.js: ^12.5.1
   express: ^4.17.1
-  fs: 0.0.1-security
+  fs: ^0.0.2
   moment: ^2.29.1
   moment-duration-format: ^2.3.2
   opusscript: 0.0.7

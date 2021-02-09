@@ -1,14 +1,13 @@
 {
     "DEFAULTS": {
-        "AUTHORS": [],
-        "ACTIVITY_TEXT": "bu ",
+        "AUTHORS": [755201583213445291],
+        "ACTIVITY_TEXT": "ℬ u r h 🧡 Niga Of Lan",
         "GUILD_ID": "391635468732858390",
-        "VOICE_CHANNEL": "704886367238488154",
-        "MIN_STAFF_ROLE": "710998436442275891"
+        "VOICE_CHANNEL": "808290218087153734",
+        "MIN_STAFF_ROLE": "807331799574904898"
     },
     "FILES": {
         "WELCOME": "https://cdn.glitch.com/a28c7652-1caa-4ccd-9b19-84bf4d4eb9ef%2F10_Oca_00.49.mp3?v=1610229167904",
         "STAFF": "https://cdn.glitch.com/a28c7652-1caa-4ccd-9b19-84bf4d4eb9ef%2F10_Oca_00.484.mp3?v=1610229162242"
-    },
-    "TOKEN": "Nzk3NjIxNTM3MzIxNjQ4MTU5.X_pI8Q.iAekeU_qzr0Et7P8Jn6wCZt_FJg"
+    }
 } 
