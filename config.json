@@ -1,10 +1,10 @@
 {
     "DEFAULTS": {
         "AUTHORS": [755201583213445291],
-        "ACTIVITY_TEXT": "Herlus Voice System 0.1",
-        "GUILD_ID": "811518682302906398",
+        "ACTIVITY_TEXT": "Raizen ❤ Shiled",
+        "GUILD_ID": "813152687863758878",
         "VOICE_CHANNEL": "813474843038056478",
-        "MIN_STAFF_ROLE": "811518682793508890"
+        "MIN_STAFF_ROLE": "813389878665412608"
      },
     "FILES": {
         "WELCOME": "https://cdn.glitch.com/8c1381b1-5359-45f5-829e-f456d853782c%2Fhgses.mp3?v=1610229012009",
