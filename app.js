@@ -16,7 +16,7 @@ Voice.channelID = null;
 Voice.on("ready", async() => {
 
     Voice.user.setPresence({
-        status: "dnd",
+        status: "online",
         activity: {
             name: CONFIG.DEFAULTS.ACTIVITY_TEXT
         }
