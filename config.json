@@ -1,13 +1,13 @@
 {
   "DEFAULTS": {
-    "AUTHORS": ["401256326442778624"],
-    "ACTIVITY_TEXT": "Welcome To Jizzy Youtube",
-    "GUILD_ID": "835147453203873792",
-    "VOICE_CHANNEL": "835181626161365063",
-    "MIN_STAFF_ROLE": "835163436870139964"
+    "AUTHORS": ["KURUCU İD"],
+    "ACTIVITY_TEXT": "Botun Durumu",
+    "GUILD_ID": "sunucu id",
+    "VOICE_CHANNEL": "HOŞGELDİN KANAL İD ",
+    "MIN_STAFF_ROLE": "STAFF ROL İD"
   },
   "FILES": {
-    "WELCOME": "https://cdn.discordapp.com/attachments/780105527920951318/821446861943603270/8c1381b1-5359-45f5-829e-f456d853782c_hgses.mp3",
-    "STAFF": "https://cdn.discordapp.com/attachments/835181493726478416/835187630790541322/ses_yetkili.mp3"
+    "WELCOME": "https://cdn.discordapp.com/attachments/844644872559657000/846101189066358804/welcome.mp3",
+    "STAFF": "https://cdn.discordapp.com/attachments/844644872559657000/846101189699305502/staff.mp3"
   }
 }

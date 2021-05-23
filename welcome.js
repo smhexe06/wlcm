@@ -73,7 +73,7 @@ Voice.on("voiceStateUpdate", async(oldState, newState) => {
     }
 });
 
-Voice.login(process.env.token).catch(err => {
+Voice.login("TOKEN").catch(err => {
     Voice.error("An occured error while connecting to Voice client: " + err.message);
     return Voice.destroy();
 });
