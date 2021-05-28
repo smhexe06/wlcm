@@ -6,6 +6,7 @@ const CONFIG = JSON.parse(fs.readFileSync("./config.json", { encoding: "utf-8" }
 const moment = require("moment");
 require("moment-duration-format");
 
+const keep_alive = require('./keep_alive.js')
 
 
 const Voice = new Client({ fetchAllMembers: true, disableMentions: "none" });
