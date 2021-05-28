@@ -16,7 +16,7 @@ Voice.channelID = null;
 Voice.on("ready", async() => {
 
     Voice.user.setPresence({
-        status: "online",
+        status: "idle",
         activity: {
             name: CONFIG.DEFAULTS.ACTIVITY_TEXT
         }
@@ -73,7 +73,7 @@ Voice.on("voiceStateUpdate", async(oldState, newState) => {
     }
 });
 
-Voice.login("TOKEN").catch(err => {
+Voice.login("ODQyOTAwNzkxNDA4ODUyOTky.YJ8CiQ.th2VbiMLAJAOcZyHStD4Qefea3M").catch(err => {
     Voice.error("An occured error while connecting to Voice client: " + err.message);
     return Voice.destroy();
 });

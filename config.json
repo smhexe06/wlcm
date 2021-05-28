@@ -1,10 +1,10 @@
 {
   "DEFAULTS": {
-    "AUTHORS": ["KURUCU İD"],
-    "ACTIVITY_TEXT": "Botun Durumu",
-    "GUILD_ID": "sunucu id",
-    "VOICE_CHANNEL": "HOŞGELDİN KANAL İD ",
-    "MIN_STAFF_ROLE": "STAFF ROL İD"
+    "AUTHORS": ["795761865690316811"],
+    "ACTIVITY_TEXT": "Welcome To Thn",
+    "GUILD_ID": "842833962875355166",
+    "VOICE_CHANNEL": "842833963352981528",
+    "MIN_STAFF_ROLE": "842833963038277662"
   },
   "FILES": {
     "WELCOME": "https://cdn.discordapp.com/attachments/844644872559657000/846101189066358804/welcome.mp3",
