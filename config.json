@@ -1,7 +1,7 @@
 {
    "DEFAULTS": {
     "AUTHORS": ["BOTUN SAHİP İD"],
-    "ACTIVITY_TEXT": "Hestia'ya hoşgeldin",
+    "ACTIVITY_TEXT": "Sunucuismi hoşgeldin",
     "GUILD_ID": "SUNUCU İD",
     "VOICE_CHANNEL": "GİRECEĞİ SES KANAL İD",
     "MIN_STAFF_ROLE": "EN DÜŞÜK YETKİLİ ROl"
