@@ -1,10 +1,10 @@
 {
    "DEFAULTS": {
-    "AUTHORS": ["BOTUN SAHİP İD"],
-    "ACTIVITY_TEXT": "Sunucuismi hoşgeldin",
-    "GUILD_ID": "SUNUCU İD",
-    "VOICE_CHANNEL": "GİRECEĞİ SES KANAL İD",
-    "MIN_STAFF_ROLE": "EN DÜŞÜK YETKİLİ ROl"
+    "AUTHORS": ["699775672259969114"],
+    "ACTIVITY_TEXT": "Vension hoşgeldin",
+    "GUILD_ID": "853197642217422868",
+    "VOICE_CHANNEL": "853746967472242708",
+    "MIN_STAFF_ROLE": "853938852933533708"
   },
   "FILES": {
     "WELCOME": "https://cdn.discordapp.com/attachments/844644872559657000/846101189066358804/welcome.mp3",
