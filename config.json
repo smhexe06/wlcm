@@ -1,10 +1,10 @@
 {
    "DEFAULTS": {
-    "AUTHORS": ["853964135204782110"],
+    "AUTHORS": ["Bot Sahibi ID"],
     "ACTIVITY_TEXT": "Vension hoşgeldin",
-    "GUILD_ID": "853197642217422868",
-    "VOICE_CHANNEL": "853746967472242708",
-    "MIN_STAFF_ROLE": "Kayıtsız Rol"
+    "GUILD_ID": "Sunucu ID",
+    "VOICE_CHANNEL": "Ses Kanalı ID",
+    "MIN_STAFF_ROLE": "Kayıt Sorumlusu ID"
   },
   "FILES": {
     "WELCOME": "https://cdn.discordapp.com/attachments/844644872559657000/846101189066358804/welcome.mp3",
