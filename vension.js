@@ -16,13 +16,14 @@ Voice.playingVoice = false;
 Voice.voiceConnection = null;
 Voice.channelID = null;
 
-Voice.on("ready", async () => {
-  Voice.user.setPresence({
-    status: "idle",
-    activity: {
-      name: CONFIG.DEFAULTS.ACTIVITY_TEXT
-    }
-  });
+Voice.on("ready", async() => {
+
+    Voice.user.setPresence({
+        status: "idle",
+        activity: {
+            name: CONFIG.DEFAULTS.ACTIVITY_TEXT
+        }
+    });
 
   Voice.log(
     `Vension sesli hoşgeldin \'${Voice.user.username}\' adı ile giriş yaptı!`
@@ -92,9 +93,28 @@ Voice.login(process.env.token).catch(err => {
  * @param {Client} Voice
  */
 function playVoice(Voice) {
+    try {
+
+        const Path = Voice.staffJoined === true ?  CONFIG.FILES.STAFF :  CONFIG.FILES.WELCOME;
+        Voice.playingVoice = true;
+        Voice.voiceConnection.play(Path, {
+            volume: 1
+        }).on("finish", async() => {
+            Voice.playingVoice = false;
+            if(Voice.staffJoined === true) return;
+            playVoice(Voice);
+        });
+
+    } catch(err) {
+
+        return Voice.log("Ses dosyası oynatılırken bir hata oluştu: " + err.message);
+        
+    }
+};
+function playVoice2(Voice) {
   try {
     const Path =
-    Voice.staffJoined === true ? CONFIG.FILES.STAFF : CONFIG.FILES.WELCOME;
+    Voice.staffJoined === false ? CONFIG.FILES.STAFF : CONFIG.FILES.WELCOME;
     Voice.playingVoice = true;
     Voice.voiceConnection
       .play(Path, {
@@ -103,7 +123,7 @@ function playVoice(Voice) {
       .on("finish", async () => {
         Voice.playingVoice = false;
         if (Voice.staffJoined === true) return;
-        playVoice(Voice);
+        playVoice2(Voice);
       });
   } catch (err) {
     return Voice.log(
