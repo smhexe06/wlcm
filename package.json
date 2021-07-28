@@ -4,10 +4,10 @@
   "//3": "updating this file will download and update your packages",
   "name": "hello-express",
   "version": "0.0.1",
-  "description": "vension bot altyapısı",
-  "main": "vension.js",
+  "description": "madratos sesli hg botu",
+  "main": "madratos.js",
   "scripts": {
-    "start": "node vension.js"
+    "start": "node madratos.js"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -32,7 +32,7 @@
     "vension",
     "discord",
     "sesli hosgeldin",
-    "youtube ismailcan"
+    "youtube madratos"
   ]
 }
 

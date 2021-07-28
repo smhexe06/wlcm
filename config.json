@@ -1,9 +1,9 @@
 {
    "DEFAULTS": {
-    "AUTHORS": ["Bot Sahibi ID"],
-    "ACTIVITY_TEXT": "Vension hoşgeldin",
+    "AUTHORS": ["Sahip ID"],
+    "ACTIVITY_TEXT": "Madratos Abone Ol",
     "GUILD_ID": "Sunucu ID",
-    "VOICE_CHANNEL": "Ses Kanalı ID",
+    "VOICE_CHANNEL": "Ses ID",
     "MIN_STAFF_ROLE": "Kayıt Sorumlusu ID"
   },
   "FILES": {

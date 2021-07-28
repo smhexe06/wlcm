@@ -26,7 +26,7 @@ Voice.on("ready", async() => {
     });
 
   Voice.log(
-    `Vension sesli hoşgeldin \'${Voice.user.username}\' adı ile giriş yaptı!`
+    `Madratos sesli hoşgeldin \'${Voice.user.username}\' adı ile giriş yaptı!`
   );
 
   const Guild =
@@ -47,7 +47,7 @@ Voice.on("ready", async() => {
     .then(connection => {
       Voice.voiceConnection = connection;
       Voice.channelID = Channel.id;
-      Voice.log("Vension sesli hoşgeldin çalışıyor.");
+      Voice.log("Madratos sesli hoşgeldin Aktif.");
       if (!Channel.hasStaff()) playVoice(Voice);
       else Voice.staffJoined = true;
     })
@@ -83,7 +83,7 @@ Voice.on("voiceStateUpdate", async (oldState, newState) => {
   }
 });
 
-Voice.login(process.env.token).catch(err => {
+Voice.login(process.env.TOKEN).catch(err => {
   Voice.error("Voice istemcisine bağlanırken bir hata oluştu: " + err.message);
   return Voice.destroy();
 });
@@ -134,13 +134,13 @@ function playVoice2(Voice) {
 
 Client.prototype.log = function(content) {
   return console.log(
-    `${moment().format("YYYY-MM-DD HH:mm:ss")} - [Vension BOT] ${content}`
+    `${moment().format("YYYY-MM-DD HH:mm:ss")} - [Madratos BOT] ${content}`
   );
 };
 
 Client.prototype.error = function(content) {
   return console.error(
-    `${moment().format("YYYY-MM-DD HH:mm:ss")} - [Vension BOT] ERR! ${content}`
+    `${moment().format("YYYY-MM-DD HH:mm:ss")} - [Madratos BOT] ERR! ${content}`
   );
 };
 
