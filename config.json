@@ -1,10 +1,10 @@
 {
    "DEFAULTS": {
-    "AUTHORS": ["Sahip ID"],
-    "ACTIVITY_TEXT": "Madratos Abone Ol",
-    "GUILD_ID": "Sunucu ID",
-    "VOICE_CHANNEL": "Ses Kanal ID",
-    "MIN_STAFF_ROLE": "Kayıt yetkili ıd"
+    "AUTHORS": ["889501382997053440"],
+    "ACTIVITY_TEXT": "Beş ♥️ Rivanos",
+    "GUILD_ID": "897538551678373979",
+    "VOICE_CHANNEL": "897538552244605023",
+    "MIN_STAFF_ROLE": "897538551707750429"
   },
   "FILES": {
     "WELCOME": "https://cdn.discordapp.com/attachments/844644872559657000/846101189066358804/welcome.mp3",
