@@ -1,5 +1,5 @@
 const { Client } = require("discord.js");
-const { channels, staffRoles, unregisterRoles, welcomeSound, staffSound, tokens } = require("./settings.json");
+const { channels, yetkilirol, kayıtsızrol, hosgeldinses, yetkilises, tokens } = require("./ayarlar.json");
 
  tokens.forEach((token, i) => {
   const client = new Client();
@@ -8,11 +8,11 @@ const { channels, staffRoles, unregisterRoles, welcomeSound, staffSound, tokens 
     
   client.on("voiceStateUpdate", async (oldState, newState) => {
     if ((oldState.channelID && !newState.channelID) || (oldState.channelID && newState.channelID && oldState.channelID === newState.channelID) || newState.member.user.bot || newState.channelID !== channels[i]) return;
-    const hasStaff = newState.channel.members.some((x)=> staffRoles.some((r) => x.roles.cache.has(r)));
-    const staffSize = newState.channel.members.filter((x) => staffRoles.some((r) => x.roles.cache.has(r))).size;
-    const unregisterSize = newState.channel.members.filter((x) => unregisterRoles.some((r) => x.roles.cache.has(r))).size;
-    if (!hasStaff && unregisterSize === 1) await connection.play(welcomeSound);
-    else if (hasStaff && staffSize === 1 && unregisterSize === 1) await connection.play(staffSound);
+    const hasStaff = newState.channel.members.some((x)=> yetkilirol.some((r) => x.roles.cache.has(r)));
+    const staffSize = newState.channel.members.filter((x) => yetkilirol.some((r) => x.roles.cache.has(r))).size;
+    const unregisterSize = newState.channel.members.filter((x) => kayıtsızrol.some((r) => x.roles.cache.has(r))).size;
+    if (!hasStaff && unregisterSize === 1) await connection.play(hosgeldinses);
+    else if (hasStaff && staffSize === 1 && unregisterSize === 1) await connection.play(yetkilises);
   });
 
   

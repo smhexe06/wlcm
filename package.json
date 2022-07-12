@@ -1,8 +1,7 @@
 {
-  "name": "borangkdn-welcome-bot",
+  "name": "welcomebot",
   "version": "0.0.1",
-  "description": "BoranGkdn Çok Tokenli Welcome Bot",
-  "main": "borangkdn.js",
+  "main": "zyronx.js",
   "scripts": {
     "start": "node ."
   },

@@ -9,12 +9,12 @@
     "996466333451563028",
     "996466364892061767" ],
 
-  "staffRoles": [
+  "yetkilirol": [
     "996466834805108776"],
 
-  "unregisterRoles": [
+  "kayıtsızrol": [
     "996466871756922962"],
   
-  "welcomeSound": "https://cdn.discordapp.com/attachments/856807536765698049/859455073486503936/hosgeldin.mp3",
-  "staffSound": "https://cdn.discordapp.com/attachments/856807536765698049/859455065609076806/yetkili.mp3"
+  "hosgeldinses": "https://cdn.discordapp.com/attachments/856807536765698049/859455073486503936/hosgeldin.mp3",
+  "yetkilises": "https://cdn.discordapp.com/attachments/856807536765698049/859455065609076806/yetkili.mp3"
 }
