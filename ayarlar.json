@@ -1,19 +1,19 @@
 {
   "tokens": [
-    "OTk2NDY1MTI5MDAyNjQzNDg3.G6mQiQ.8RvK6fwFXAjbuUYJS11hdSr_Afy8wcC4DK6WhI",
-    "OTk2NDY1MTYzOTk5OTIwMTY4.GIPtBS.1WRcy0__a1vSAOcRY1Oh1mDUEQL7L21ytwSuiA",
-    "OTk2NDY1MTk1MDcxMzIwMTQ1.GGvos3.usGcVieo4rbQEB3Kq5_r4vCB0g4hYdvoULZY6U" ],
+    "Token 1",
+    "Token 2",
+    "Token 3" ],
   
   "channels": [
-    "987681222559932416",
-    "996466333451563028",
-    "996466364892061767" ],
+    "1 SES KANAL İD",
+    "2 SES KANAL İD",
+    "3 SES KANAL İD" ],
 
   "yetkilirol": [
-    "996466834805108776"],
+    "Yetkili Rol İd"],
 
   "kayıtsızrol": [
-    "996466871756922962"],
+    "Kayıtsız Rol İd"],
   
   "hosgeldinses": "https://cdn.discordapp.com/attachments/996472821876260924/996472906370519150/tts_file.mp3",
   "yetkilises": "https://cdn.discordapp.com/attachments/996472821876260924/996472930571657287/tts_file_1.mp3"
