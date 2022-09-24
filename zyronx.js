@@ -17,7 +17,7 @@ const { channels, yetkilirol, kayıtsızrol, hosgeldinses, yetkilises, tokens } 
 
   
   client.on("ready", async () => {
-  client.user.setPresence({ activity: { name: "Zyronx İş Başında" }, status: "idle" });
+  client.user.setPresence({ activity: { name: "𝙨𝙢𝙝.𝙚𝙭𝙚 Özel sistem" }, status: "dnd" });
   })
   client.login(token).then(() => console.log(`${client.user.tag} Aktif!`)).catch(() => console.error(`${token} Tokeni aktif edilemedi!`));
 });
